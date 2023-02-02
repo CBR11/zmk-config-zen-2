@@ -47,8 +47,6 @@
 / {
     combos {
         compatible = "zmk,combos";
-  COMBO(um, &kp RBKT, 25 26, 30, 0)
-	COMBO(nj, &nj, 23 24, 30, 0)
 	COMBO(ac, &kp EQUAL, 15 16, 30, 6)
 	COMBO(ae, &kp SEMI, 2 12, 120, 6)
 	COMBO(oe, &kp SQT, 1 11, 120, 6)
