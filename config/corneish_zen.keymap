@@ -9,6 +9,8 @@
 #define MED 5
 #define FUN 6
 
+#define Æ SEMI
+
 &sk {
     quick-release;
 };
@@ -111,7 +113,7 @@
                         bindings = <
   &kp SQT  &kp O    &kp U       &kp F         &lt MED COMMA   &lt FUN BSPC   &kp H         &kp L  &kp V  &kp C
   &kp I    &kp A    &kp E       &hm LSHIFT S  &kp DOT         &kp M          &hm LSHIFT D  &kp N  &kp T  &kp G
-  &kp SEMI &kp LBKT &kp Y       &hmc LCTRL B  &qe             &hmc LGUI BSLH &hmc LCTRL K  &kp J  &kp P  &sk LSHIFT
+  &kp Æ    &kp LBKT &kp Y       &hmc LCTRL B  &qe             &hmc LGUI BSLH &hmc LCTRL K  &kp J  &kp P  &sk LSHIFT
                   &mo MED &lt OTH SLASH &kp SPC         &lt NAV R      &kp W &kp RALT
                         >;
                 };
