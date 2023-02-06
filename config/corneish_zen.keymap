@@ -150,7 +150,7 @@
         r_layer {
             label = "DAN";
             bindings = <
-                &trans &kp LBKT   &kp SQT    &trans     &trans         &kp LC(Z)       &trans          &trans  &trans  &trans
+                &trans &kp SQT  &kp SEMI    &trans     &trans         &kp LC(Z)       &trans          &trans  &trans  &trans
                 &trans   &trans   &trans    &trans &trans            &trans &trans   &trans     &trans        &trans
                 &trans    &trans &trans  &trans  &trans               &trans &trans       &trans        &trans &kp CAPS
                                         &trans   &trans        &trans          &trans     &trans &trans
