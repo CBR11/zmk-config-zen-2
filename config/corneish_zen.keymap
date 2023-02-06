@@ -83,7 +83,7 @@
 	    
         };	
            da: danish {
-            compatible = "zmk,behavior-hold-tap";
+            compatible = "zmk,behavior-layer-tap";
             label = "danish";
             #binding-cells = <2>;
             tapping_term_ms = <300>;
