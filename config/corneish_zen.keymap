@@ -4,7 +4,7 @@
 
 #define NAV 1
 #define OTH 2
-#define RRR 3
+#define DAN 3
 #define SYM 4
 #define MED 5
 #define FUN 6
@@ -27,8 +27,13 @@
     tapping_term_ms = <300>;
 };
 
-&mt {
+&lta {
     flavor = "tap-preferred";
+    tapping_term_ms = <300>;
+};
+
+&mt {
+    flavor = "hold-preferred";
     tapping-term-ms = <300>;
 };
 
@@ -110,7 +115,7 @@
 // |     |     |  Y  |  B  |  ?  |   |  '  |  K  |  J  |  P  | shft|
 //             | MED | OTH | SPC |   |  R  |  W  | ALT |
                         bindings = <
-  &kp LBKT &mt SQT O    &mt SEMI U  &mt RC(F) F  &kp COMMA    &lt FUN BSPC   &kp H         &kp L  &kp V  &kp C
+  &lta DAN LBKT &mt SQT O    &mt SEMI U  &mt RC(F) F  &kp COMMA    &lt FUN BSPC   &kp H         &kp L  &kp V  &kp C
   &kp I    &kp A    &kp E       &hm LSHIFT S  &kp DOT         &kp M          &hm LSHIFT D  &kp N  &kp T  &kp G
   &kp RC(RC(F))   &none    &kp Y       &hmc LCTRL B  &qe             &hmc LGUI BSLH &hmc LCTRL K  &mt RC(J) J  &mt RC(P) P  &sk LSHIFT
                   &mo MED &lt OTH SLASH &kp SPC         &lt NAV R      &kp W &kp RALT
@@ -138,9 +143,9 @@
         };
 
         r_layer {
-            label = "R";
+            label = "DAN";
             bindings = <
-                &trans &trans   &trans     &trans     &trans         &kp LC(Z)       &trans          &trans  &trans  &trans
+                &trans &kp LBKT   &kp SQT    &trans     &trans         &kp LC(Z)       &trans          &trans  &trans  &trans
                 &trans   &trans   &trans    &trans &trans            &trans &trans   &trans     &trans        &trans
                 &trans    &trans &trans  &trans  &trans               &trans &trans       &trans        &trans &kp CAPS
                                         &trans   &trans        &trans          &trans     &trans &trans
