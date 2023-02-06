@@ -27,13 +27,8 @@
     tapping_term_ms = <300>;
 };
 
-&lta {
-    flavor = "tap-preferred";
-    tapping_term_ms = <300>;
-};
-
 &mt {
-    flavor = "hold-preferred";
+    flavor = "tap-preferred";
     tapping-term-ms = <300>;
 };
 
@@ -85,7 +80,17 @@
             #binding-cells = <0>;
             bindings = <&hm LALT LS(MINUS)>, <&kp LS(N1)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
+	    
         };	
+           da: danish {
+            compatible = "zmk,behavior-hold-tap";
+            label = "danish";
+            #binding-cells = <2>;
+            tapping_term_ms = <300>;
+            flavor = "hold-preferred";
+            bindings = <&kp>, <&kp>;
+	
+	};	
            hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "homerow mods";
@@ -115,7 +120,7 @@
 // |     |     |  Y  |  B  |  ?  |   |  '  |  K  |  J  |  P  | shft|
 //             | MED | OTH | SPC |   |  R  |  W  | ALT |
                         bindings = <
-  &lta DAN LBKT &mt SQT O    &mt SEMI U  &mt RC(F) F  &kp COMMA    &lt FUN BSPC   &kp H         &kp L  &kp V  &kp C
+  &da DAN LBKT &mt SQT O    &mt SEMI U  &mt RC(F) F  &kp COMMA    &lt FUN BSPC   &kp H         &kp L  &kp V  &kp C
   &kp I    &kp A    &kp E       &hm LSHIFT S  &kp DOT         &kp M          &hm LSHIFT D  &kp N  &kp T  &kp G
   &kp RC(RC(F))   &none    &kp Y       &hmc LCTRL B  &qe             &hmc LGUI BSLH &hmc LCTRL K  &mt RC(J) J  &mt RC(P) P  &sk LSHIFT
                   &mo MED &lt OTH SLASH &kp SPC         &lt NAV R      &kp W &kp RALT
