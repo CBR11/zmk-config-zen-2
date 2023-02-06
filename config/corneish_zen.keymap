@@ -87,7 +87,7 @@
             label = "danish";
             #binding-cells = <2>;
             tapping_term_ms = <300>;
-            flavor = "hold-preferred";
+            flavor = "tap-unless-interrupted";
             bindings = <&mo>, <&kp>;
 	
 	};	
