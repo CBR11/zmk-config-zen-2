@@ -83,12 +83,12 @@
 	    
         };	
            da: danish {
-            compatible = "zmk,behavior-layer-tap";
+            compatible = "zmk,behavior-hold-tap";
             label = "danish";
             #binding-cells = <2>;
             tapping_term_ms = <300>;
             flavor = "hold-preferred";
-            bindings = <&kp>, <&kp>;
+            bindings = <&mo>, <&kp>;
 	
 	};	
            hm: homerow_mods {
