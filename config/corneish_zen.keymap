@@ -49,11 +49,11 @@
     combos {
         compatible = "zmk,combos";
 	COMBO(ac, &kp EQUAL, 15 16, 30, 6)
-	COMBO(ae, &kp SEMI, 2 12, 120, 0)
+	COMBO(ae, &kp SEMI, 2 12, 120, 6)
 	COMBO(oe, &kp SQT, 1 11, 120, 6)
 	COMBO(tab, &kp TAB, 8 18, 30, 0)
 	COMBO(x, &kp X, 3 13, 80, 0)
-	COMBO(z, &kp Z, 2 12, 80, 6)
+	COMBO(z, &kp Z, 2 12, 80, 0)
 	COMBO(ci, &kp LS(N2), 6 16, 80, 0)
 	COMBO(enter, &kp ENTER, 7 17, 30, 0 1)
 	COMBO(enter1, &kp ENTER, 2 12, 30, 1)
@@ -111,7 +111,7 @@
 // |     |  Å  |  Y  |  B  |  ?  |   |  '  |  K  |  J  |  P  | shft|
 //             | MED | OTH | SPC |   |  R  |  W  | ALT |
                         bindings = <
-  &kp SQT &kp O    &kp U  &mt RC(F) F  &kp COMMA    &lt FUN BSPC   &kp H         &kp L  &kp V  &kp C
+  &kp SQT &kp O    &mt SEMI U  &mt RC(F) F  &kp COMMA    &lt FUN BSPC   &kp H         &kp L  &kp V  &kp C
   &kp I    &kp A    &kp E       &hm LSHIFT S  &kp DOT         &kp M          &hm LSHIFT D  &kp N  &kp T  &kp G
   &kp SLASH &kp LBKT   &kp Y       &hmc LCTRL B  &qe             &hmc LGUI BSLH &hmc LCTRL K  &mt RC(J) J  &mt RC(P) P  &sk LSHIFT
                   &mo MED &lt OTH Z &kp SPC         &lt NAV R      &kp W &kp RALT
