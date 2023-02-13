@@ -113,7 +113,7 @@
                         bindings = <
   &kp SQT &kp O    &mt SEMI U  &mt RC(F) F  &kp COMMA    &lt FUN BSPC   &kp H         &kp L  &kp V  &kp P
   &kp I    &kp A    &kp E       &hm LSHIFT S  &kp DOT         &kp B          &hm LSHIFT D  &kp N  &kp T  &kp G
-  &kp SEMI &kp LBKT   &kp Y       &hmc LCTRL C  &qe             &hmc LGUI BSLH &hmc LCTRL K  &kp J  &kp M  &sk LSHIFT
+  &kp SEMI &kp LBKT   &kp Y       &hmc LCTRL C  &qe             &hmc LGUI BSLH &hmc LCTRL K  &kp M  &kp J  &sk LSHIFT
                   &mo MED &lt OTH SLASH &kp SPC         &lt NAV R      &kp W &kp RALT
                         >;
                 };
