@@ -52,12 +52,12 @@
 	COMBO(ae, &kp SEMI, 2 12, 120, 6)
 	COMBO(oe, &kp SQT, 1 11, 120, 6)
 	COMBO(tab, &kp TAB, 8 18, 30, 0)
-	COMBO(x, &kp X, 3 13, 80, 0)
-	COMBO(z, &kp Z, 2 12, 80, 0)
+	COMBO(x, &kp X, 3 13, 30, 0)
+	COMBO(z, &kp Z, 2 12, 30, 0)
 	COMBO(ci, &kp LS(N2), 6 16, 80, 0)
 	COMBO(enter, &kp ENTER, 7 17, 30, 0 1)
 	COMBO(enter1, &kp ENTER, 2 12, 30, 1)
-	COMBO(q, &kp Q, 1 11, 80, 0)
+	COMBO(q, &kp Q, 1 11, 30, 0)
 	COMBO(tog, &tog 1, 30 31, 30, 0 1)  
         COMBO(rctrl, &kp RCTRL, 17 27, 30, 0)
         COMBO(rwin, &kp RGUI, 18 28, 30, 6)
@@ -106,10 +106,10 @@
                 default_layer {
                         label = "Base";
 // -------------------------------------------------------------------
-// |  Ø  |  O  |  U  |  F  |  ,  |   |  -  |  H  |  L  |  V  |  C  |
+// |  Ø  |  O  |  U  |  F  |  ,  |   |  -  |  H  |  L  |  B  |  V  |
 // |  I  |  A  |  E  |  S  |  .  |   |  M  |  D  |  N  |  T  |  G  |
-// |     |  Å  |  Y  |  B  |  ?  |   |  '  |  K  |  J  |  P  | shft|
-//             | MED | OTH | SPC |   |  R  |  W  | ALT |
+// |  Æ  |  Å  |  Y  |  C  |  ?  |   |  '  |  K  |  J  |  P  |  W  |
+//             | MED | OTH | SPC |   |  R  |sshft| ALT |
                         bindings = <
   &kp SQT &kp O    &mt SEMI U  &mt RC(F) F  &kp COMMA    &lt FUN BSPC   &kp H         &kp L  &kp B  &kp V
   &kp I    &kp A    &kp E       &hm LSHIFT S  &kp DOT         &kp M          &hm LSHIFT D  &kp N  &kp T  &kp G
