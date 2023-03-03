@@ -61,7 +61,7 @@
 	COMBO(tog, &tog 1, 30 31, 30, 0 1)  
         COMBO(rctrl, &kp RCTRL, 17 27, 30, 0)
         COMBO(rwin, &kp RGUI, 18 28, 30, 6)
-	COMBO(Lpara, &kp LS(N8), 4 14, 30, 0)
+	COMBO(Lpara, &kp BSPC, 4 14, 30, 0)
  	COMBO(Rpara, &kp LC(BSPC), 5 15, 60, 0 1)
 	
 	};        
@@ -111,9 +111,9 @@
 // |  Æ  |  Å  |  Y  |  C  |  ?  |   |  '  |  K  |  J  |  P  |  W  |
 //             | MED | OTH | SPC |   |  R  |sshft| ALT |
                         bindings = <
-  &kp SQT &kp O    &kp U  &mt RC(F) F  &kp COMMA    &lt FUN J   &kp H         &kp L  &kp V  &kp  BSLH
+  &kp SQT &kp O    &kp U  &mt RC(F) F  &kp COMMA    &lt FUN P   &kp H         &kp L  &kp V  &kp  BSLH
   &kp I    &kp A    &kp E       &hm LSHIFT S  &kp DOT         &kp M          &hm LSHIFT D  &kp N  &kp T  &kp G
-  &kp SEMI &kp LBKT   &kp Y       &hmc LCTRL B  &qe             &hmc LGUI P &hmc LCTRL K  &kp C  &kp W  &kp  BSPC
+  &kp SEMI &kp LBKT   &kp Y       &hmc LCTRL B  &qe             &hmc LGUI X &hmc LCTRL K  &kp C  &kp J  &kp W
                   &mo MED &lt OTH SLASH &kp SPC         &lt NAV R &sk LSHIFT      &kp RALT
                         >;
                 };
