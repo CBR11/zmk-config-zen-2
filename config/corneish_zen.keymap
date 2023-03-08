@@ -62,7 +62,7 @@
         COMBO(rctrl, &kp RCTRL, 17 27, 30, 0)
         COMBO(rwin, &kp RGUI, 18 28, 30, 6)
 	COMBO(Lpara, &kp BSPC, 4 14, 30, 0)
- 	COMBO(Rpara, &kp LC(BSPC), 5 15, 60, 0 1)
+ 	COMBO(Rpara, &kp LC(BSPC), 15 25, 60, 0 1)
 	
 	};        
 
@@ -113,7 +113,7 @@
                         bindings = <
   &kp SQT &kp O    &kp U  &mt RC(F) F  &kp COMMA    &lt FUN P   &kp K         &kp L  &kp V  &kp  BSLH
   &kp I    &kp A    &kp E       &hm LSHIFT S  &kp DOT         &kp M          &hm LSHIFT D  &kp N  &kp T  &kp G
-  &kp SEMI &kp LBKT   &kp Y       &hmc LCTRL B  &qe             &hmc LGUI X &hmc LCTRL H  &kp W  &kp J  &kp C
+  &kp SEMI &kp LBKT   &kp Y       &hmc LCTRL B  &qe             &hmc LGUI BSPC &hmc LCTRL H  &kp W  &kp J  &kp C
                   &mo MED &lt OTH SLASH &lt BSP SPC         &lt NAV R &sk LSHIFT      &kp RALT
                         >;
                 };
