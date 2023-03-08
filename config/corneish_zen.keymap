@@ -4,7 +4,7 @@
 
 #define NAV 1
 #define OTH 2
-#define DAN 3
+#define BSP 3
 #define SYM 4
 #define MED 5
 #define FUN 6
@@ -114,7 +114,7 @@
   &kp SQT &kp O    &kp U  &mt RC(F) F  &kp COMMA    &lt FUN P   &kp K         &kp L  &kp V  &kp  BSLH
   &kp I    &kp A    &kp E       &hm LSHIFT S  &kp DOT         &kp M          &hm LSHIFT D  &kp N  &kp T  &kp G
   &kp SEMI &kp LBKT   &kp Y       &hmc LCTRL B  &qe             &hmc LGUI X &hmc LCTRL H  &kp W  &kp J  &kp C
-                  &mo MED &lt OTH SLASH &kp SPC         &lt NAV R &sk LSHIFT      &kp RALT
+                  &mo MED &lt OTH SLASH &lt BSP SPC         &lt NAV R &sk LSHIFT      &kp RALT
                         >;
                 };
 
@@ -138,13 +138,13 @@
             >;
         };
 
-        r_layer {
-            label = "DAN";
+        spc_layer {
+            label = "BSP";
             bindings = <
-                &trans &kp SQT  &kp SEMI    &trans     &trans         &kp LC(Z)       &trans          &trans  &trans  &trans
+                &trans &trans  &trans    &trans     &trans         &trans       &trans          &trans  &trans  &trans
                 &trans   &trans   &trans    &trans &trans            &trans &trans   &trans     &trans        &trans
                 &trans    &trans &trans  &trans  &trans               &trans &trans       &trans        &trans &kp CAPS
-                                        &trans   &trans        &trans          &trans     &trans &trans
+                                        &trans   &trans        &trans          &kp BSPC    &kp LC(BSPC) &trans
             >;
         };
 
