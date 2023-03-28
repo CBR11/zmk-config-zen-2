@@ -107,6 +107,7 @@
             tapping_term_ms = <250>;
             flavor = "balanced";
             bindings = <&mo>, <&kp>;
+	    };
     };        
 
         keymap {
