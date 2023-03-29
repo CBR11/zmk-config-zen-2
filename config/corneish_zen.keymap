@@ -122,8 +122,8 @@
 //             | MED | OTH | SPC |   |  R  |sshft| ALT |
                         bindings = <
   &kp DOT &kp  F   &kp O  &mt RC(F) I  &kp SQT    &lta FUN P   &kp K         &kp L  &kp V  &kp  BSLH
-  &kp  B    &kp S   &kp E   &kp A      &kp LBKT         &kp M          &hm LSHIFT D  &kp N  &kp T  &kp G
-  &kp COMMA  &qe   &kp  SEMI      &hmc LCTRL  U &kp Y            &hmc LGUI BSPC &hmc LCTRL H  &kp W  &kp J  &kp C
+  &qe    &kp S   &kp E   &kp A      &kp LBKT         &kp M          &hm LSHIFT D  &kp N  &kp T  &kp G
+  &kp COMMA  &kp  B   &kp  SEMI      &hmc LCTRL  U &kp Y            &hmc LGUI BSPC &hmc LCTRL H  &kp W  &kp J  &kp C
                   &mo MED &lt OTH SLASH &kp SPC         &lt NAV R &hm LSHIFT LS(N2)      &kp RALT
                         >;
                 };
