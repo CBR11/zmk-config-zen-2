@@ -61,7 +61,7 @@
 	COMBO(tog, &tog 1, 30 31, 30, 0 1)  
         COMBO(rctrl, &kp RCTRL, 17 27, 30, 0)
         COMBO(rwin, &kp RGUI, 18 28, 30, 6)
-	COMBO(Lpara, &kp BSPC, 4 14, 30, 0)
+	COMBO(Lpara, &kp BSPC, 5 15, 30, 0)
  	COMBO(Rpara, &kp LC(BSPC), 15 25, 60, 0 1)
 	
 	};        
