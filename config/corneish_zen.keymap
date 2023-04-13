@@ -78,7 +78,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "qe";
             #binding-cells = <0>;
-            bindings = <&hm LSHIFT LS(MINUS)>, <&kp LS(N1)>
+            bindings = <&hm LSHIFT LS(MINUS)>, <&kp LS(N1)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
 	    
 	};	
