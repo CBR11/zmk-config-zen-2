@@ -78,7 +78,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "qe";
             #binding-cells = <0>;
-            bindings = <&hm LSHIFT LS(MINUS)>, <&kp LS(N1)>;
+            bindings = <&hm LALT LS(MINUS)>, <&kp LS(N1)>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
 	    
 	};	
@@ -98,8 +98,6 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-	
-	        
            lta: layerfun {
             compatible = "zmk,behavior-hold-tap";
             label = "layer fun";
@@ -107,7 +105,7 @@
             tapping_term_ms = <250>;
             flavor = "balanced";
             bindings = <&mo>, <&kp>;
-	    };
+	};
     };        
 
         keymap {
@@ -116,14 +114,14 @@
                 default_layer {
                         label = "Base";
 // -------------------------------------------------------------------
-// |  Ø  |  O  |  U  |  F  |  ,  |   |  -  |  H  |  L  |  B  |  V  |
+// |  Ø  |  O  |  U  |  F  |  ,  |   |  P  |  K  |  L  |  V  |  '  |
 // |  I  |  A  |  E  |  S  |  .  |   |  M  |  D  |  N  |  T  |  G  |
-// |  Æ  |  Å  |  Y  |  C  |  ?  |   |  '  |  K  |  J  |  P  |  W  |
+// |  Æ  |  Å  |  Y  |  B  |  ?  |   |  '  |  H  |  W  |  J  |  C  |
 //             | MED | OTH | SPC |   |  R  |sshft| ALT |
                         bindings = <
-  &kp COMMA &kp  B   &kp O  &mt RC(F) I  &kp SQT    &lta FUN P   &kp K         &kp L  &kp V  &kp  BSLH
-  &kp  DOT    &kp S   &kp E   &kp A      &kp U         &kp M          &hm LSHIFT D  &kp N  &kp T  &kp G
-  &qe  &hmc LGUI BSPC  &kp  SEMI      &hmc LCTRL LBKT  &kp Y      &kp  F       &hmc LCTRL H  &kp W  &kp J  &kp C
+ &kp   B    &kp O          &kp  U &kp LBKT         &qe    &lta FUN P   &kp K         &kp L  &kp V  &kp  BSLH
+ &hm LSHIFT S   &kp  A         &kp E   &kp I     &kp SQT     &kp M        &hm LSHIFT D  &kp N  &kp T  &kp G
+ &kp DOT &kp COMMA &kp SEMI   &hmc LCTRL Y  &kp LGUI   &kp F        &hmc LCTRL H  &kp W  &kp J  &kp C
                   &mo MED &lt OTH SLASH &kp SPC         &lt NAV R &hm LSHIFT LS(N2)      &kp RALT
                         >;
                 };
