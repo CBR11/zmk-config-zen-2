@@ -51,10 +51,10 @@
 	COMBO(ac, &kp EQUAL, 15 16, 30, 6)
 	COMBO(ae, &kp SEMI, 2 12, 120, 6)
 	COMBO(oe, &kp SQT, 1 11, 120, 6)
-	COMBO(tab, &kp TAB, 8 18, 30, 0)
+	COMBO(tab, &kp TAB, 2 12, 30, 0)
 	COMBO(x, &kp X, 3 13, 30, 0)
-	COMBO(z, &kp Z, 2 12, 30, 0)
-	COMBO(ci, &kp LS(N2), 6 16, 80, 0)
+	COMBO(z, &kp Z, 6 16, 30, 0)
+	COMBO(ci, &kp LS(N2), 8 18, 80, 0)
 	COMBO(enter, &kp ENTER, 7 17, 30, 0 1)
 	COMBO(enter1, &kp ENTER, 2 12, 30, 1)
 	COMBO(q, &kp Q, 1 11, 30, 0)
@@ -120,7 +120,7 @@
 //             | MED | OTH | SPC |   |  R  |sshft| ALT |
                         bindings = <
   &kp SQT  &kp O          &kp  U    &kp   B       &qe    &lta FUN P   &kp K         &kp L  &kp V  &kp  BSLH
- &kp I   &kp  A         &kp E     &hm LSHIFT S    &kp DOT    &kp M        &hm LSHIFT D  &kp N  &kp T  &kp G
+ &kp I   &kp  A         &kp E     &hm LSHIFT S    &hmc LALT DOT    &kp M        &hm LSHIFT D  &kp N  &kp T  &kp G
  &kp SEMI &kp LBKT  &kp Y  &hmc LCTRL  COMMA &kp LGUI   &kp F        &hmc LCTRL H  &kp W  &kp J  &kp C
                   &mo MED &lt OTH SLASH &kp SPC         &lt NAV R &hm LSHIFT LS(N2)      &kp RALT
                         >;
