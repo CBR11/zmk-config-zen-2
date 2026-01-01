@@ -129,10 +129,10 @@
         nav_layer {
             display-name = "Nav";
             bindings = <
-                &kp SLASH &kp N6 &kp N5 &kp N4         &lt MED LS(BSLH)             &trans &kp BSPC    &kp UARW   &kp DEL  &kp PG_UP
-                &kp N3    &kp N2 &kp N1 &hmc LSHIFT N0 &lt FUN LS(N7)               &kp LC(Z)    &kp LARW    &kp DARW   &kp RARW &kp PG_DN
-                &kp MINUS &kp N9 &kp N8 &hmc LCTRL N7  &kp LS(N0)                   &none        &none       &none      &kp HOME &kp END
-                                  &trans &trans  &trans                   &trans       &trans  &trans
+                &kp LS(N7) &kp N7 &kp N8 &kp N9         &lt MED LS(BSLH)             &trans &kp BSPC    &kp UARW   &kp DEL  &kp PG_UP
+                &kp LS(N0)    &kp N4 &kp N5 &hmc LSHIFT N6 &lt FUN SLASH               &kp LC(Z)    &kp LARW    &kp DARW   &kp RARW &kp PG_DN
+                &kp N0 &kp N1 &kp N2 &hmc LCTRL N3  &kp MINUS                   &none        &none       &none      &kp HOME &kp END
+                                  &kp DOT &kp COMMA  &kp ENTER                   &trans       &trans  &trans
             >;
         };
 
