@@ -114,15 +114,15 @@
                 default_layer {
                         display-name = "Base";
 // -------------------------------------------------------------------
-// |  Å  |  O  |  U  |  B  |  ?  |   |  P  |  K  |  L  |  V  |  '  |
-// |  I  |  A  |  E  |  S  |  .  |   |  M  |  D  |  N  |  T  |  G  |
-// |  Y  |  Ø  |  Æ  |  ,  |  ?  |   |  F  |  H  |  W  |  J  |  C  |
+// |  Y  |  B  |  U  |  O  |  ?  |   |  P  |  K  |  L  |  V  |  '  |
+// |  I  |  S  |  E  |  A  |  Ø  |   |  M  |  D  |  N  |  T  |  G  |
+// |  ,  |  .  |  Æ  |  Å  |  -  |   |  F  |  H  |  W  |  J  |  C  |
 //             | MED | OTH | SPC |   |  R  |sshft| ALT |
                         bindings = <
-  &kp Y  &kp B    &kp U     &kp  O                &qe                 &lta FUN P   &kp K         &kp L  &kp V  &kp BSLH
-  &kp I     &hm  LSHIFT S    &kp E     &kp A     &hmc LALT SQT            &kp M        &hm LSHIFT D  &kp N  &kp T  &kp G
-  &kp COMMA     &kp DOT &kp SEMI    &hmc LCTRL LBKT  &hmc LGUI SLASH          &kp F        &hmc LCTRL H  &kp W  &kp J  &kp C
-                  &mo MED &lt OTH SLASH &kp SPC                           &lt NAV R &hm LSHIFT LS(N2)      &kp RALT
+  &kp Y  &kp B    &kp U     &kp  O                &qe                               &lta FUN P   &kp K         &kp L  &kp V  &kp BSLH
+  &kp I     &kp  S    &kp E     &kp A     &kp SQT                                   &kp M        &hm LSHIFT D  &kp N  &kp T  &kp G
+  &hm  LSHIFT COMMA     &hmc LALT DOT &kp SEMI    &hmc LCTRL LBKT  &hmc LGUI SLASH          &kp F        &hmc LCTRL H  &kp W  &kp J  &kp C
+                  &mo MED &lt OTH SLASH &kp SPC                                      &lt NAV R &hm LSHIFT LS(N2)      &kp RALT
                         >;
                 };
 
