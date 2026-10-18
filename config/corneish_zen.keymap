@@ -119,9 +119,9 @@
 // |  '  |  ?  |  -  |  Æ  |  Y  |   |  P  |  H  |  J  |  C  |  W  |
 //             | MED |OTH/X| SPC |   |  R  |Sh/Z |ALT/Q|
                         bindings = <
-  &kp DOT   &kp B    &kp O      &kp  I          &kp SQT                          &lta FUN F   &kp K         &kp L  &kp V  &kp COMMA
-  &kp U     &kp S    &kp E      &hm  LSHIFT A   &hmc LALT LBKT                   &kp M        &hm LSHIFT D  &kp N  &kp T  &kp G
-  &kp BSLH  &qe      &kp SLASH  &hmc LCTRL SEMI &hmc LGUI  Y                     &kp P        &hmc LCTRL H  &kp J  &kp C  &kp W
+  &lt FUN DOT   &kp B    &kp O      &kp  I          &kp SQT                          &lta FUN F   &kp K         &kp L  &kp V  &kp COMMA
+  &kp U         &kp S    &kp E      &hm  LSHIFT A   &hmc LALT LBKT                   &kp M        &hm LSHIFT D  &kp N  &kp T  &kp G
+  &kp BSLH      &qe      &kp SLASH  &hmc LCTRL SEMI &hmc LGUI  Y                     &kp P        &hmc LCTRL H  &kp J  &kp C  &kp W
                   &mo MED &lt OTH X &kp SPC                                      &lt NAV R &hm LSHIFT Z      &hmc RALT Q
                         >;
                 };
