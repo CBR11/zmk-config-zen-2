@@ -23,7 +23,7 @@
     require-prior-idle-ms = <IDLE>; \
   };
 
-&lt { flavor = "tap-preferred"; tapping-term-ms = <250>; };
+&lt { flavor = "tap-preferred"; tapping-term-ms = <300>; };
 &mt { flavor = "tap-preferred"; tapping-term-ms = <300>; };
 
 / {
