@@ -109,7 +109,7 @@
   &lt FUN DOT   &kp B    &kp O      &kp  I          &kp SQT                          &kp F        &kp K         &kp L  &kp V  &lt FUN COMMA
   &kp U         &kp S    &kp E      &hm  LSHIFT A   &hm  LALT LBKT                   &kp M        &hm LSHIFT D  &kp N  &kp T  &kp G
   &kp BSLH      &kp W    &qe        &hm  LCTRL SEMI &hm  LGUI  Y                     &kp P        &hm LCTRL H   &kp J  &kp C  &kp SLASH
-                &lt MED TAB         &kp X           &lt OTH SPC                      &lt NAV R    &hm LSHIFT Z  &hm  RALT Q
+                &lt MED TAB         &lt OTH X       &kp  SPC                         &lt NAV R    &hm LSHIFT Z  &hm  RALT Q
                         >;
                 };
 
